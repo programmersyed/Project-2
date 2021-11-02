@@ -1,0 +1,14 @@
+let myAge = 19
+// SHould assign myAge with my age
+let earlyYears = 2
+// The earlyYears should be asigned the number 2
+earlyYears*= 10.5
+// Multiplying early years by 10.5. 
+let laterYears = myAge - 2
+// My age minus 2.
+laterYears*= 4
+// Later years is being muliplied by 4
+let myAgeinDogYears= earlyYears + laterYears
+//myAgeinDogYears should equal earlyYears + laterYears
+let myName= 'Abraham Syed'.toLowerCase();
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeinDogYears} years old in dog years. `)
